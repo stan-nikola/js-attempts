@@ -8,7 +8,7 @@
 // console.log('price:', totalPrice);
 
 
-// // оператор typeoff
+// // оператор typeof
 // const  type = typeof  age;
 
 // console.log(type);

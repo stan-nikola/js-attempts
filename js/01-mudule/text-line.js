@@ -53,7 +53,7 @@ const blackListWord2 = 'spam ';
 
 const string1 = ' its new yea sale spam';
 const string2 = ' sale today';
-const string3 = ' its wonderfool day to SALE';
+const string3 = ' its wonderful day to SALE';
 // нормализируем 3ю строку
 const normalazedString3 = string3.toLowerCase();
 

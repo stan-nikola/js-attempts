@@ -38,7 +38,7 @@
 // const x2 = 30;
 // const number = 40;
 
-// // 40<10 flase
+// // 40<10 false
 // // 40>30 true
 // // 40>10 true && 40<30 false  --- false
 // // 40<10 false || 40>30 true --- true

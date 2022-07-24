@@ -39,7 +39,7 @@ let value = 'Эту строку в число не перевести';
 // console.log(Number(quantity));
 // console.log(Number(value));
 
-// обьект Math
+// объект Math
 
 // число Пи и другие математические методы
 // console.log(Math.PI);
