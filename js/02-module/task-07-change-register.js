@@ -3,11 +3,11 @@
  * Например, если строка «JavaScript», то на выходе должна быть строка «jAVAsCRIPT».
  */
 
-const string = 'JavaScript';
-// разбиваем на массив
-const letters = string.split('');
+// const string = 'JavaScript';
+// // // разбиваем на массив
+// const letters = string.split('');
 
-let invertedString  = '';
+// let invertedString  = '';
 
 // console.log(letters);
 
@@ -31,15 +31,56 @@ let invertedString  = '';
 
 // =====================================
 
+const string = 'ebfbBRRBRBR';
+// // разбиваем на массив
+const letters = string.split('');
+
+let invertedString  = '';
+
+
 // вариант на тернарном операторе
 // const message = условие ? выражение1 : выражение2;
 
 for (const letter of letters) {
     const isEqual = letter === letter.toLocaleLowerCase();
-    
+
     invertedString =isEqual
     ? invertedString += letter.toLocaleUpperCase()
     : invertedString  += letter.toLocaleLowerCase();
 }
 
 console.log(invertedString);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15, -18];
+
+// let negValue = 0;
+//   for ( const value of input){
+//       if ( value > 0) {
+//           console.log(value.length);
+//      }
+    
+//   }
+  
+//   for (const value of input){
+//       if (value < 0) {
+//           negValue += value;
+//      }
+//   }
+
+// console.log(negValue);
+

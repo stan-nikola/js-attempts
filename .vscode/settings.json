@@ -15,8 +15,11 @@
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
   "cSpell.words": [
+    "булевое",
     "воод",
+    "нормализируем",
     "промт",
+    "Corbin",
     "Vasyl"
   ]
 }

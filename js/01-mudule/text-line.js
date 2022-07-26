@@ -55,8 +55,8 @@ const string1 = ' its new yea sale spam';
 const string2 = ' sale today';
 const string3 = ' its wonderful day to SALE';
 // нормализируем 3ю строку
-const normalazedString3 = string3.toLowerCase();
+const normalizedString3 = string3.toLowerCase();
 
 console.log(string1.includes(blackListWord1));
 console.log(string2.includes(blackListWord2));
-console.log(normalazedString3.includes(blackListWord1));
+console.log(normalizedString3.includes(blackListWord1));
