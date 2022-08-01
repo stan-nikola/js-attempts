@@ -6,30 +6,33 @@
  */
 
 const changeCase = function (string) {
-    
-    const letters = string.split(" ");
-    const invertString = '';
+    //  const letters = string.split('');
+    // let invertedString = '';
+    // for (const letter of letters) {
+    //     if (letter === letter.toLocaleLowerCase()) {
+    //         // перебираем нижний регистр
+           
+    //         invertedString += letter.toUpperCase();
+    //     } else {
+          
+    //         // перезаписываем нижний в нижний
+    //         invertedString += letter.toLowerCase();
+    //     }
+    // } return invertedString;
 
-    if (lettet === letters.toLowerCase()) {
-        
-    }
-    
+    const letters = string.split('');
+    let invertedString = '';
+
+    for (const letter of letters) {
+        const isItLowerCase = letter === letter.toLowerCase();
+
+        invertedString += isItLowerCase ? letter.toUpperCase() : letter.toLowerCase();
+    } return invertedString;
 }
+
 
 console.log(changeCase('qweRTY')); // QWErty
 console.log(changeCase('mAnGo')); // MaNgO
 console.log(changeCase('AjAx')); // aJaX
 
 
-    // if (letter === letter.toLocaleLowerCase()) {
-//         // перебираем нижний регистр
-//         console.log('В нижнем регистре', letter);
-//         // перезаписываем нижний в верхний
-//         invertedString  += letter.toLocaleUpperCase();
-//     } else {
-//          // перебираем верхний регистр
-//         console.log('В верхнем регистре', letter);
-//          // перезаписываем нижний в нижний
-//          invertedString  += letter.toLocaleLowerCase();
-//     }
-// }

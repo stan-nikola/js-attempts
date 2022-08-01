@@ -56,38 +56,3 @@
 // console.table(cards);
 
 
-// const clients = ["Mango", "Ajax", "Poly", "Kiwi", "Bingo"];
-// console.log(clients.slice(1, 2));
-
-const array = ['Earth', 'Mars', 'Venus'];
-//   // Change code below this line
-// let firstAndLast;
-//    firstAndLast = `${array[0]}, ${array[array.length-1]}`;
-//   // Change code above this line
-
-// console.log(firstAndLast);
-
-
-
-//   // Change code below this line
-// let firstAndLast;
-// firstAndLast = `${array[0]}, ${array[array.length-1]}`;
-//   // Change code above this line
-// console.log(firstAndLast);
-
-function getExtremeElements(array) {
-  // Change code below this line
-
- const firstAndLastEL=array.splice(0, 3  )
- 
- 
-
-  // console.log(firstEl); 
-  console.log(firstAndLastEL); 
-   
-  // return firstAndLast;
-  // Change code above this line
-}
-// getExtremeElements([1, 2, 3, 4, 5]);
-// getExtremeElements(["Earth", "Mars", "Venus"]);
-getExtremeElements(["apple", "peach", "pear", "banana"]);
